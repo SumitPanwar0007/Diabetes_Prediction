@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Text with Background and Shadow</title>
+<style>
+  body {
+    background-color: #f2f2f2; /* Light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  h1 {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border: 2px solid #ccc; /* Grey border */
+    border-radius: 5px;
+    box-shadow: 10px 0px 15px rgba(0, 0, 0, 0.1); /* Shadow to the right */
+  }
+  #result {
+    color: red;
+    font-weight: bold; 
+  }
+</style>
+</head>
+<body>
+
+<h1>Person is :<span id='result'> {{result}}</span></h1>
+
+</body>
+</html>
